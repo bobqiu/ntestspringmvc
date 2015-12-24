@@ -1,9 +1,10 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
-import org.appfuse.tutorial.tutorial.Constants;
-import org.appfuse.tutorial.tutorial.dao.LookupDao;
-import org.appfuse.tutorial.tutorial.model.LabelValue;
-import org.appfuse.tutorial.tutorial.model.Role;
+
+import org.appfuse.tutorial.Constants;
+import org.appfuse.tutorial.dao.LookupDao;
+import org.appfuse.tutorial.model.LabelValue;
+import org.appfuse.tutorial.model.Role;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;

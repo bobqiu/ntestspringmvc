@@ -1,12 +1,12 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
 import org.apache.commons.lang.StringUtils;
-import org.appfuse.tutorial.tutorial.dao.UserDao;
-import org.appfuse.tutorial.tutorial.model.User;
-import org.appfuse.tutorial.tutorial.service.MailEngine;
-import org.appfuse.tutorial.tutorial.service.UserExistsException;
-import org.appfuse.tutorial.tutorial.service.UserManager;
-import org.appfuse.tutorial.tutorial.service.UserService;
+import org.appfuse.tutorial.dao.UserDao;
+import org.appfuse.tutorial.model.User;
+import org.appfuse.tutorial.service.MailEngine;
+import org.appfuse.tutorial.service.UserExistsException;
+import org.appfuse.tutorial.service.UserManager;
+import org.appfuse.tutorial.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.mail.SimpleMailMessage;
@@ -27,7 +27,7 @@ import java.util.Map;
  * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
  */
 @Service("userManager")
-@WebService(serviceName = "UserService", endpointInterface = "org.appfuse.tutorial.tutorial.service.UserService")
+@WebService(serviceName = "UserService", endpointInterface = "org.appfuse.tutorial.service.UserService")
 public class UserManagerImpl extends GenericManagerImpl<User, Long> implements UserManager, UserService {
     private PasswordEncoder passwordEncoder;
     private UserDao userDao;
@@ -72,7 +72,7 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
      * passwordRecovery.vm).
      *
      * @param passwordRecoveryTemplate the Velocity template to use (relative to classpath)
-     * @see org.appfuse.tutorial.tutorial.service.MailEngine#sendMessage(org.springframework.mail.SimpleMailMessage, String, java.util.Map)
+     * @see org.appfuse.tutorial.service.MailEngine#sendMessage(org.springframework.mail.SimpleMailMessage, String, java.util.Map)
      */
     public void setPasswordRecoveryTemplate(final String passwordRecoveryTemplate) {
         this.passwordRecoveryTemplate = passwordRecoveryTemplate;
@@ -83,7 +83,7 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
      * (default passwordUpdated.vm).
      *
      * @param passwordUpdatedTemplate the Velocity template to use (relative to classpath)
-     * @see org.appfuse.tutorial.tutorial.service.MailEngine#sendMessage(org.springframework.mail.SimpleMailMessage, String, java.util.Map)
+     * @see org.appfuse.tutorial.service.MailEngine#sendMessage(org.springframework.mail.SimpleMailMessage, String, java.util.Map)
      */
     public void setPasswordUpdatedTemplate(final String passwordUpdatedTemplate) {
         this.passwordUpdatedTemplate = passwordUpdatedTemplate;

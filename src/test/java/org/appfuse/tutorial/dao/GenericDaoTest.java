@@ -1,15 +1,16 @@
-package org.appfuse.tutorial.tutorial.dao;
+package org.appfuse.tutorial.dao;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.tutorial.tutorial.dao.hibernate.GenericDaoHibernate;
-import org.appfuse.tutorial.tutorial.model.User;
+import org.appfuse.tutorial.dao.hibernate.GenericDaoHibernate;
+import org.appfuse.tutorial.model.User;
 import org.hibernate.SessionFactory;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class GenericDaoTest extends BaseDaoTestCase {
     Log log = LogFactory.getLog(GenericDaoTest.class);

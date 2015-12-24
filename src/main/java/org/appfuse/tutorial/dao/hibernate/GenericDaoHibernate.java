@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.dao.hibernate;
+package org.appfuse.tutorial.dao.hibernate;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -6,8 +6,8 @@ import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.queryParser.ParseException;
 import org.apache.lucene.util.Version;
-import org.appfuse.tutorial.tutorial.dao.GenericDao;
-import org.appfuse.tutorial.tutorial.dao.SearchException;
+import org.appfuse.tutorial.dao.GenericDao;
+import org.appfuse.tutorial.dao.SearchException;
 import org.hibernate.*;
 import org.hibernate.search.FullTextSession;
 import org.hibernate.search.Search;

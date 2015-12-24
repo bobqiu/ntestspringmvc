@@ -9,7 +9,7 @@
     <context:annotation-config/>
 
     <!-- Activates scanning of @Repository and @Service -->
-    <context:component-scan base-package="org.appfuse.tutorial.tutorial"/>
+    <context:component-scan base-package="org.appfuse.tutorial"/>
 
     <!-- Add new DAOs here -->
 
@@ -17,7 +17,7 @@
     <bean id="personManager" class="org.appfuse.tutorial.service.impl.GenericManagerImpl">
         <constructor-arg>
             <bean class="org.appfuse.tutorial.dao.hibernate.GenericDaoHibernate">
-                <constructor-arg value="org.appfuse.tutorial.tutorial.model.Person"/>
+                <constructor-arg value="org.appfuse.tutorial.model.Person"/>
             </bean>
         </constructor-arg>
     </bean>

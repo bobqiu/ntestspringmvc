@@ -1,6 +1,7 @@
-package org.appfuse.tutorial.tutorial.service;
+package org.appfuse.tutorial.service;
 
-import org.appfuse.tutorial.tutorial.model.Role;
+
+import org.appfuse.tutorial.model.Role;
 
 import java.util.List;
 

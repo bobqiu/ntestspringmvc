@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.util;
+package org.appfuse.tutorial.util;
 
 import org.apache.commons.beanutils.ConversionException;
 import org.apache.commons.beanutils.Converter;

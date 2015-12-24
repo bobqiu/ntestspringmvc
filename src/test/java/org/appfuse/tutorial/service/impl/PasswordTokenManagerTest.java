@@ -1,16 +1,9 @@
-package org.appfuse.tutorial.tutorial.service.impl;
-
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
-
-import java.net.BindException;
-import java.util.Random;
+package org.appfuse.tutorial.service.impl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.tutorial.tutorial.model.User;
-import org.appfuse.tutorial.tutorial.service.UserManager;
+import org.appfuse.tutorial.model.User;
+import org.appfuse.tutorial.service.UserManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -22,6 +15,11 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.subethamail.wiser.Wiser;
+
+import java.net.BindException;
+import java.util.Random;
+
+import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {

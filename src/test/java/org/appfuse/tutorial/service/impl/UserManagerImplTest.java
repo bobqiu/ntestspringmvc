@@ -1,11 +1,11 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
-import org.appfuse.tutorial.tutorial.Constants;
-import org.appfuse.tutorial.tutorial.dao.RoleDao;
-import org.appfuse.tutorial.tutorial.dao.UserDao;
-import org.appfuse.tutorial.tutorial.model.Role;
-import org.appfuse.tutorial.tutorial.model.User;
-import org.appfuse.tutorial.tutorial.service.UserExistsException;
+
+import org.appfuse.tutorial.Constants;
+import org.appfuse.tutorial.dao.UserDao;
+import org.appfuse.tutorial.model.Role;
+import org.appfuse.tutorial.model.User;
+import org.appfuse.tutorial.service.UserExistsException;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;

@@ -1,6 +1,6 @@
-package org.appfuse.tutorial.tutorial.service;
+package org.appfuse.tutorial.service;
 
-import org.appfuse.tutorial.tutorial.model.User;
+import org.appfuse.tutorial.model.User;
 import org.springframework.dao.DataAccessException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

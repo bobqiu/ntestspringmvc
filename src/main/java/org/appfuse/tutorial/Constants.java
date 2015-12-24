@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial;
+package org.appfuse.tutorial;
 
 
 /**

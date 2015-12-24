@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.dao;
+package org.appfuse.tutorial.dao;
 
 import java.io.Serializable;
 import java.util.List;

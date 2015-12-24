@@ -1,6 +1,6 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
-import org.appfuse.tutorial.tutorial.service.UserManager;
+import org.appfuse.tutorial.service.UserManager;
 import org.junit.Ignore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

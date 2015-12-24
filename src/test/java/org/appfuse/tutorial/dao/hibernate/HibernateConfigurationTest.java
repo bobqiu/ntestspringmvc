@@ -1,6 +1,6 @@
-package org.appfuse.tutorial.tutorial.dao.hibernate;
+package org.appfuse.tutorial.dao.hibernate;
 
-import org.appfuse.tutorial.tutorial.dao.BaseDaoTestCase;
+import org.appfuse.tutorial.dao.BaseDaoTestCase;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

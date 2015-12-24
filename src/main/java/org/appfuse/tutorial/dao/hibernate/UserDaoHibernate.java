@@ -1,7 +1,8 @@
-package org.appfuse.tutorial.tutorial.dao.hibernate;
+package org.appfuse.tutorial.dao.hibernate;
 
-import org.appfuse.tutorial.tutorial.dao.UserDao;
-import org.appfuse.tutorial.tutorial.model.User;
+
+import org.appfuse.tutorial.dao.UserDao;
+import org.appfuse.tutorial.model.User;
 import org.hibernate.Query;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.core.annotation.AnnotationUtils;

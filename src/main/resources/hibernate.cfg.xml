@@ -8,6 +8,6 @@
     <session-factory>
         <mapping class="org.appfuse.tutorial.model.User"/>
         <mapping class="org.appfuse.tutorial.model.Role"/>
-        <mapping class="org.appfuse.tutorial.tutorial.model.Person"/>
+        <mapping class="org.appfuse.tutorial.model.Person"/>
     </session-factory>
 </hibernate-configuration>

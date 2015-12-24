@@ -1,11 +1,11 @@
-package org.appfuse.tutorial.tutorial.service;
+package org.appfuse.tutorial.service;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.tutorial.tutorial.Constants;
-import org.appfuse.tutorial.tutorial.model.Role;
-import org.appfuse.tutorial.tutorial.model.User;
+import org.appfuse.tutorial.Constants;
+import org.appfuse.tutorial.model.Role;
+import org.appfuse.tutorial.model.User;
 import org.springframework.aop.AfterReturningAdvice;
 import org.springframework.aop.MethodBeforeAdvice;
 import org.springframework.security.access.AccessDeniedException;

@@ -1,9 +1,9 @@
-package org.appfuse.tutorial.tutorial.service;
+package org.appfuse.tutorial.service;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.tutorial.tutorial.Constants;
-import org.appfuse.tutorial.tutorial.model.User;
+import org.appfuse.tutorial.Constants;
+import org.appfuse.tutorial.model.User;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,7 +1,7 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
-import org.appfuse.tutorial.tutorial.model.User;
 
+import org.appfuse.tutorial.model.User;
 
 public interface PasswordTokenManager {
 

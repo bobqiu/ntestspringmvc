@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.util;
+package org.appfuse.tutorial.util;
 
 import org.junit.Test;
 import org.springframework.context.i18n.LocaleContextHolder;

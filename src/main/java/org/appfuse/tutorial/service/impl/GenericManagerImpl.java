@@ -1,13 +1,11 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.tutorial.tutorial.dao.GenericDao;
-import org.appfuse.tutorial.tutorial.service.GenericManager;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.appfuse.tutorial.dao.GenericDao;
+import org.appfuse.tutorial.service.GenericManager;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

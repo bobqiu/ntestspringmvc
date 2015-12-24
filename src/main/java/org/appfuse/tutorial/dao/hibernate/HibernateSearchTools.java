@@ -1,7 +1,4 @@
-package org.appfuse.tutorial.tutorial.dao.hibernate;
-
-import java.util.Collection;
-import java.util.HashSet;
+package org.appfuse.tutorial.dao.hibernate;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -20,6 +17,9 @@ import org.hibernate.search.MassIndexer;
 import org.hibernate.search.Search;
 import org.hibernate.search.SearchFactory;
 import org.hibernate.search.indexes.IndexReaderAccessor;
+
+import java.util.Collection;
+import java.util.HashSet;
 
 /**
  * Utility class to generate lucene queries for hibernate search and perform full reindexing.

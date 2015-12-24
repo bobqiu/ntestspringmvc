@@ -1,7 +1,8 @@
-package org.appfuse.tutorial.tutorial.dao.hibernate;
+package org.appfuse.tutorial.dao.hibernate;
 
-import org.appfuse.tutorial.tutorial.dao.RoleDao;
-import org.appfuse.tutorial.tutorial.model.Role;
+
+import org.appfuse.tutorial.dao.RoleDao;
+import org.appfuse.tutorial.model.Role;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;

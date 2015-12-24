@@ -1,9 +1,9 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.tutorial.tutorial.util.ConvertUtil;
+import org.appfuse.tutorial.util.ConvertUtil;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
 

@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.dao;
+package org.appfuse.tutorial.dao;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

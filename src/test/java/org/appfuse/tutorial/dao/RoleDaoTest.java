@@ -1,7 +1,7 @@
-package org.appfuse.tutorial.tutorial.dao;
+package org.appfuse.tutorial.dao;
 
-import org.appfuse.tutorial.tutorial.Constants;
-import org.appfuse.tutorial.tutorial.model.Role;
+import org.appfuse.tutorial.Constants;
+import org.appfuse.tutorial.model.Role;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

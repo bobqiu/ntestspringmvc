@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.model;
+package org.appfuse.tutorial.model;
 
 import java.io.Serializable;
 import java.util.Comparator;

@@ -1,8 +1,8 @@
-package org.appfuse.tutorial.tutorial.service.impl;
+package org.appfuse.tutorial.service.impl;
 
-import org.appfuse.tutorial.tutorial.dao.RoleDao;
-import org.appfuse.tutorial.tutorial.model.Role;
-import org.appfuse.tutorial.tutorial.service.RoleManager;
+import org.appfuse.tutorial.dao.RoleDao;
+import org.appfuse.tutorial.model.Role;
+import org.appfuse.tutorial.service.RoleManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

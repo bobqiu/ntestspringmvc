@@ -1,18 +1,17 @@
 /**
  * 
  */
-package org.appfuse.tutorial.tutorial.service.impl;
-
-import java.util.Date;
-
-import javax.sql.DataSource;
+package org.appfuse.tutorial.service.impl;
 
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang.math.RandomUtils;
 import org.apache.commons.lang.time.DateUtils;
-import org.appfuse.tutorial.tutorial.model.User;
+import org.appfuse.tutorial.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+
+import javax.sql.DataSource;
+import java.util.Date;
 
 /**
  * Provides {@link PasswordTokenManager} functionality generating and persisting
@@ -62,7 +61,6 @@ public class PersistentPasswordTokenManagerImpl implements PasswordTokenManager 
     }
 
     /**
-     * @see org.appfuse.tutorial.tutorial.service.impl.PasswordTokenManager#generateRecoveryToken(org.appfuse.tutorial.tutorial.model.User)
      */
     @Override
     public String generateRecoveryToken(final User user) {
@@ -73,7 +71,6 @@ public class PersistentPasswordTokenManagerImpl implements PasswordTokenManager 
     }
 
     /**
-     * @see org.appfuse.tutorial.tutorial.service.impl.PasswordTokenManager#isRecoveryTokenValid(org.appfuse.tutorial.tutorial.model.User, java.lang.String)
      */
     @Override
     public boolean isRecoveryTokenValid(final User user, final String token) {
@@ -82,7 +79,7 @@ public class PersistentPasswordTokenManagerImpl implements PasswordTokenManager 
 
     /**
      * 
-     * @see org.appfuse.tutorial.tutorial.service.impl.PasswordTokenManager#invalidateRecoveryToken(User, String)
+     * @see PasswordTokenManager#invalidateRecoveryToken(User, String)
      */
     @Override
     public void invalidateRecoveryToken(User user, String token) {

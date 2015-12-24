@@ -1,7 +1,8 @@
-package org.appfuse.tutorial.tutorial.service;
+package org.appfuse.tutorial.service;
 
-import org.appfuse.tutorial.tutorial.dao.UserDao;
-import org.appfuse.tutorial.tutorial.model.User;
+
+import org.appfuse.tutorial.dao.UserDao;
+import org.appfuse.tutorial.model.User;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
@@ -88,7 +89,7 @@ public interface UserManager extends GenericManager<User, Long> {
      * UrlTemplate should include two placeholders '{username}' for username and '{token}' for the recovery token.
      * 
      * @param user
-     * @param urlTemplateurl
+     * @param urlTemplate
      *            template including two placeholders '{username}' and '{token}'
      * @return
      */

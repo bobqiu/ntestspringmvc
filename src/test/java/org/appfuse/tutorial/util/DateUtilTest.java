@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.util;
+package org.appfuse.tutorial.util;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

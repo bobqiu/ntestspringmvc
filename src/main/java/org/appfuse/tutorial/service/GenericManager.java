@@ -1,4 +1,4 @@
-package org.appfuse.tutorial.tutorial.service;
+package org.appfuse.tutorial.service;
 
 import java.io.Serializable;
 import java.util.List;
